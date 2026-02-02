@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #ffffff;
+    background-color: #121212;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+}
+
+.main_group{
+    background-color: #424040;
+    margin: 35px 0 35px 0;
+}
