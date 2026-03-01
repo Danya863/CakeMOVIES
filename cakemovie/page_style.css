@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #ffffff;
+    background-color: #121212;
+    font-family: 'Inter';
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    margin: 15px 5px -15px 10px;
+}
+
+header a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.CakeMovieLogo{
+    display: flex;
+    flex-direction: row;
+}
+
+.CakeMovieLogo h2{
+    position: relative;
+    top: 40px;
+}
+
+.header_list{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 41px;
+}
+
+.header_list a{
+    margin: 0 25px 0 25px;
+}
+
+.login{
+    display: flex;
+    position: absolute;
+    right: 20px;
+    top: 45px;
+    color: #121212;
+    background-color: #d9d9d9;
+    border-radius: 11px;
+    padding: 6px 20px 6px 20px;
+}
+
+.fil_card{
+    display: flex;
+}
+
+.stat_list{
+    margin: 15px 50px 15px 15px;
+    list-style: none;
+}
