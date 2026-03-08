@@ -22,6 +22,19 @@ header a{
     color: #ffffff;
 }
 
+.header_list{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 41px;
+}
+
+.header_list a{
+    margin: 0 25px 0 25px;
+}
+
 .CakeMovieLogo{
     display: flex;
     flex-direction: row;

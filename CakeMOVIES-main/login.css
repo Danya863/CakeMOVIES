@@ -56,6 +56,25 @@ header a{
     padding: 6px 20px 6px 20px;
 }
 
-.fotter{
-    color:#d9d9d9;
+footer{
+    background-color: #424040;
+    margin-top: 35px;
+}
+
+footer h3{
+    margin: 200px 5px 0 15px;
+}
+
+.group_item{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top:150px;
+    margin-bottom:100px;
+}
+
+.group_item h4{
+    margin: -10px 0 100px 0;
+    background-color: #383737;
+    color:#888181
 }
