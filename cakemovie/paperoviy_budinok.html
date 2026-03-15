@@ -31,22 +31,38 @@
         </header>
         <main>
             <div class="fil_card">
-                <h1></h1>
-                <img src="images_big/image 1.png">
-                <div class="stat_list">
-                    <li><h4>Жанр: бойовик, трилер, кримінал, детектив</li></h4>
-                    <li><h4>Вікова категорія: 16+</li></h4>
-                    <li><h4>Країна: Іспанія</li></h4>
-                    <li><h4>У ролях: Урсула Корберо, Альваро Морте, Іціар Ітуньйо, Педро Алонсо, Мігель Ерран, Джеймі Лоренте, Естер Асебо, Енріке Арсе, Дарко Періч, Альба Флорес, Фернандо Сото, Маріо де ла Роса, Хуан Фернандес, Рокко Нарва</li></h4>
-                    <li><h4>Кількість серій: 48</li></h4>
-                    <li><h4>Середня тривалість серії: 42 хвилини</li></h4>
-                    <li><h4>Кількість сезонів: 5</li></h4>
-                    <li><h4>Статус серіалу: Завершено</li></h4>
+                <div class="ziro4ki">
+                    <select class="star-rating">
+                        <option value="">Select a rating</option>
+                        <option value="5">Excellent</option>
+                        <option value="4">Very Good</option>
+                        <option value="3">Average</option>
+                        <option value="2">Poor</option>
+                        <option value="1">Terrible</option>
+                    </select>
                 </div>
+                <img src="images_big/image 1.png">
+                <div class="name-stat">
+                    <h1 class="name">Паперовий будинок</h1>
+                    <div class="stat_list">
+                        <li><h4>Жанр: бойовик, трилер, кримінал, детектив</li></h4>
+                        <li><h4>Вікова категорія: 16+</li></h4>
+                        <li><h4>Країна: Іспанія</li></h4>
+                        <li><h4>У ролях: Урсула Корберо, Альваро Морте, Іціар Ітуньйо, Педро Алонсо, Мігель Ерран, Джеймі Лоренте, Естер Асебо, Енріке Арсе, Дарко Періч, Альба Флорес, Фернандо Сото, Маріо де ла Роса, Хуан Фернандес, Рокко Нарва</li></h4>
+                        <li><h4>Кількість серій: 48</li></h4>
+                        <li><h4>Середня тривалість серії: 42 хвилини</li></h4>
+                        <li><h4>Кількість сезонів: 5</li></h4>
+                        <li><h4>Статус серіалу: Завершено</li></h4>
+                    </div>
+                </div>    
             </div>    
         </main>
         <footer>
 
         </footer>
+        <script src="js/star-rating.js"></script>
+        <script>
+            var stars = new StarRating('.star-rating');
+        </script>
     </body>
 </html>
