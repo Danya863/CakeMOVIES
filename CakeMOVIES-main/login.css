@@ -59,6 +59,8 @@ header a{
 footer{
     background-color: #424040;
     margin-top: 35px;
+    position: relative;
+    bottom: -287px;
 }
 
 footer h3{
@@ -69,7 +71,7 @@ footer h3{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top:150px;
+    top:140px;
     margin-bottom:100px;
 }
 
@@ -77,4 +79,24 @@ footer h3{
     margin: -10px 0 100px 0;
     background-color: #383737;
     color:#888181
+}
+
+.log{
+    position: absolute;
+    right: -90px;
+}
+
+.pas{
+    position: absolute;
+    top: 90px;
+    right: -90px;
+}
+
+.but{
+    background-color: white;
+    position: relative;
+    bottom: -230px;
+    left: 650px;
+    border-radius: 100px;
+    width: 50px;
 }
