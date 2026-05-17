@@ -17,37 +17,53 @@
         </nav>
         <button class="btn-login">Увійти</button>
     </header>
+
     <main class="container">
-        <section class="movie-detail">
-            <div class="poster-container">
-                <img src="" alt="Форсаж" class="main-poster">
-                <div class="rating-badge">9.2 / 10</div>
+        <section class="movie-details">
+        <div class="poster-container">
+            <img src="https://upload.wikimedia.org/wikipedia/ru/c/c4/Fast_X.jpg" alt="Форсаж X" class="main-poster">
+            <div class="ratting-badger">9.2 / 10</div>
+        </div>
+
+        <div class="info-container"></div>
+            <h1>Форсаж X</h1>
+            <p class="tagline">Кінець шляху починається.</p>
+            <div class="meta-grid">
+                 <div class="meta-item"><span>Жанр:</span>бойовик, кримінал, трилер</div>
+                 <div class="meta-item"><span>Рік:</span>2023</div>
+                 <div class="meta-item"><span>Країна:</span>США</div>
+                 <div class="meta-item"><span>Тривалість:</span>141</div>
+                 <div class="meta-item"><span>Вік:</span>16+</div>
+                 <div class="meta-item"><span>Статус:</span>Вийшов</div>
             </div>
+        
+        <div class="description">
+            <p>Минулі вороги дають про себе знати майже через 10 років після здійснення злочину, залучившись новою підтримкою та вірними супутниками мають на меті помститися головним героям за їхні криваві, хоч і доволі старі, злочини.</p>
+        </div>
+        
+        <div class="actions">
+            <button class="btn-watch">Дивитись зараз</button>
+            <button class="btn-trailer">Трейлер</button>
+           </div>
+        </div>
+        </section>
 
-            <div class="info-container">
-                <h1></h1>
-                <p class="tag-line"></p>
-
-                <div class="meta-grid">
-                    <div class="meta-item"></div>
-                    <div class="meta-item"></div>
-                    <div class="meta-item"></div>
-                    <div class="meta-item"></div>
-                    <div class="meta-item"></div>
-                    <div class="meta-item"></div>
-                </div>
-
-                <div class="description">
-                    <p></p>
-                </div>
-
-                <div class="actions">
-                    <button class="btn-watch">Дивитися зараз</button>
-                    <button class="btn-trailer">Трейлер</button>
-                </div>
-            </div>  
+        <section class="comments-section">
+            <h2>Відгуки глядачі</h2>
+            <div class="comments-input-area">
+                <textarea placeholder="Напишіть свій відгуки"></textarea>
+                <button>Відправити</button>
+            </div>
+            <div class="comments-list" id="commentsList">
+                 </div>
 
         </section>
     </main>
-    <script src="script.js"></script>
+
+<footer class="footer">
+   <p>Маєте запитання? Телефонуйте: 380-931-463-307</p>
+    <p class="copyright">&copy; 2026 CakeMovie. Всі права захищено.</p>
+</footer>
+        <script src="script.js"></script>
 </body>
+</html>
