@@ -22,19 +22,6 @@ header a{
     color: #ffffff;
 }
 
-.header_list{
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 41px;
-}
-
-.header_list a{
-    margin: 0 25px 0 25px;
-}
-
 .CakeMovieLogo{
     display: flex;
     flex-direction: row;
@@ -54,13 +41,13 @@ header a{
     top: 41px;
 }
 
+.header_list a{
+    margin: 0 25px 0 25px;
+}
+
 .slctd{
     color: yellow;
     font-size: 44px;
-}
-
-.header_list a{
-    margin: 0 25px 0 25px;
 }
 
 .login{
@@ -92,20 +79,9 @@ main h1{
 .popular_group{
     display: flex;
     flex-direction: row;
-    width: 100%;
 }
-
 .group_item{
-    margin: 5px 17px 25px 17px;
-}
-
-.group_item{
-    margin: 5px 17px 25px 17px;
-}
-
-.group_item img{
-    width: 100%;
-    height: 85%;
+    margin: 5px 17px 15px 17px;
 }
 
 .group_item h3{

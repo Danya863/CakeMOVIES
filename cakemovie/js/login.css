@@ -22,19 +22,6 @@ header a{
     color: #ffffff;
 }
 
-.header_list{
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 41px;
-}
-
-.header_list a{
-    margin: 0 25px 0 25px;
-}
-
 .CakeMovieLogo{
     display: flex;
     flex-direction: row;
@@ -54,11 +41,6 @@ header a{
     top: 41px;
 }
 
-.slctd{
-    color: yellow;
-    font-size: 44px;
-}
-
 .header_list a{
     margin: 0 25px 0 25px;
 }
@@ -74,40 +56,47 @@ header a{
     padding: 6px 20px 6px 20px;
 }
 
-main a{
-    text-decoration: none;
-    color: #ffffff;
-}
-
-main h1{
-    margin-left: 7px;
-}
-
-.main_group{
+footer{
     background-color: #424040;
-    margin: 35px 0 35px 0;
-    width: 100%;
+    margin-top: 35px;
+    position: relative;
+    bottom: -287px;
 }
 
-.popular_group{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-}
-
-.group_item{
-    margin: 5px 17px 25px 17px;
+footer h3{
+    margin: 200px 5px 0 15px;
 }
 
 .group_item{
-    margin: 5px 17px 25px 17px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top:140px;
+    margin-bottom:100px;
 }
 
-.group_item img{
-    width: 100%;
-    height: 85%;
+.group_item h4{
+    margin: -10px 0 100px 0;
+    background-color: #383737;
+    color:#888181
 }
 
-.group_item h3{
-    max-width: 190px;
+.log{
+    position: absolute;
+    right: -90px;
+}
+
+.pas{
+    position: absolute;
+    top: 90px;
+    right: -90px;
+}
+
+.but{
+    background-color: white;
+    position: relative;
+    bottom: -230px;
+    left: 650px;
+    border-radius: 100px;
+    width: 50px;
 }
